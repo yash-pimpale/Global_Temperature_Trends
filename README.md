@@ -52,7 +52,7 @@ from sklearn.metrics import mean_squared_error
 Monthly Temperature data for each latitude and longitude from year 1880-2023 is present in a grided form in .netcdf file. We need to extract data for specific cities from this .netcdf file for all the years. Below steps are followed :
 
 <p align="center">
-  <img width="180" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/data_extraction.jpg">
+  <img width="180" height="400" src="https://github.com/yash-pimpale/Global_Temperature_Trends/blob/main/Images/data_extraction.jpg">
 </p>
 
 - Extract Temperature, latitude and longitude present in .netcdf file.
@@ -66,7 +66,7 @@ Note: Grided Form means latitude and longitude are divided into a sequence from 
 Below is the Final extracted dataset obtained.
 
 <p align="center">
-  <img width="550" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/land_extracted_data.jpg">
+  <img width="550" height="300" src="https://github.com/yash-pimpale/Global_Temperature_Trends/blob/main/Images/land_extracted_data.jpg">
 </p>
 
 ## Visualization of Mean Land Surface Temperature Trend
@@ -74,13 +74,13 @@ Below is the Final extracted dataset obtained.
 The GIF depicts the mean land surface temperature for 12 months as line on the polar scale. Each line indicates mean temperature of a respective year with inner most line indicating year 1880 and outer most as year 2022.
 
 <p align="center">
-  <img width="500" height="500" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Global_Mean_Temperature_Change_V3.gif">
+  <img width="500" height="500" src="https://github.com/yash-pimpale/Global_Temperature_Trends/blob/main/Images/Global_Mean_Temperature_Change_V3.gif">
 </p>
 
 Below figure depicts a line graph with mean land temperature on y-axis and Year on x-axis.
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Mean_Land_Surface_Temperature_1.jpg">
+  <img width="600" height="400" src="https://github.com/yash-pimpale/Global_Temperature_Trends/blob/main/Images/Mean_Land_Surface_Temperature_1.jpg">
 </p>
 
 Above figures indicate a noticeable increase in mean land surface temperatures from 1880 to 2022.
@@ -89,7 +89,7 @@ The temperature range rose from -0.35°C to 1.3°C over a 42-year span which sig
 ## Visualization of Land Surface Temperature Trend For Specific Cities
 
 <p align="center">
-  <img width="700" height="500" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/citywise_plot.png">
+  <img width="700" height="500" src="https://github.com/yash-pimpale/Global_Temperature_Trends/blob/main/Images/citywise_plot.png">
 </p>
 
 
@@ -100,7 +100,7 @@ We repeat the same procedure mentioned above (Land Surface Temperature) to extra
 ## Visualization of Mean Ocean Surface Temperature Trend
 
 <p align="center">
-  <img width="620" height="450" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Ocean_surface.png">
+  <img width="620" height="450" src="https://github.com/yash-pimpale/Global_Temperature_Trends/blob/main/Images/Ocean_surface.png">
 </p>
 
 
@@ -109,13 +109,13 @@ The above figure depicts the rise in annual mean ocean surface temperatures.The 
 ## Oceanwise Surface Temperature Trends
 
 <p align="center">
-  <img width="620" height="450" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/ocean_plots.png">
+  <img width="620" height="450" src="https://github.com/yash-pimpale/Global_Temperature_Trends/blob/main/Images/ocean_plots.png">
 </p>
 
 In summary, both land and ocean surface temperature data plots exhibit a consistent rise in temperatures over the years. The land surface temperature experienced a substantial increase, while the ocean surface temperature similarly showed an upward trend. 
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Globe_Mean_Temperature_V1.gif">
+  <img width="460" height="300" src="https://github.com/yash-pimpale/Global_Temperature_Trends/blob/main/Images/Globe_Mean_Temperature_V1.gif">
 </p>
 
 ## Correlation Between Temperature and CO2
@@ -129,7 +129,7 @@ Since CO2 levels in the atmosphere have been steadily rising, let's investigate 
 We now calculate the correlation between mean land surface temperature and CO2 levels over a common range of years to assess their relationship. This is done by combining temperature and CO2 datasets using inner merge.
 
 <p align="center">
-  <img width="560" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/correlarion_co2.png">
+  <img width="560" height="400" src="https://github.com/yash-pimpale/Global_Temperature_Trends/blob/main/Images/correlarion_co2.png">
 </p>
 
 The above scatter plot with temperature on the x-axis and CO2 levels on the y-axis, where each point is colored based on the year. It also adds a regression line to the plot which indicates the trajectory of linear relationship. It reveals a significant positive correlation between the two, substantiated by a Pearson correlation coefficient of 0.951. This coefficient indicates a strong linear relationship between the two variables, suggesting that as CO2 concentrations increase, there is a corresponding elevation in temperature levels.
@@ -152,7 +152,7 @@ We examined three different machine learning methods – linear regression, rand
 Below are the steps involved in model evaluation and prediction :
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/volcano_flowchart.jpg">
+  <img width="460" height="300" src="https://github.com/yash-pimpale/Global_Temperature_Trends/blob/main/Images/volcano_flowchart.jpg">
 </p>
 
 - Data Collection and Integration:
@@ -176,7 +176,7 @@ Convert volcanic CO2 emissions (Kilotons) and atmospheric CO2 levels (Parts per 
 In summary, through merging datasets, training a Random Forest regression model, and evaluating its performance, we predicted missing CS ratios. This information was then used to estimate volcanic CO2 emissions. The chosen algorithm, Random Forest, yielded promising results with an RMSE of 1.33.
 
 <p align="center">
-  <img width="560" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/volcanic_co2.png">
+  <img width="560" height="400" src="https://github.com/yash-pimpale/Global_Temperature_Trends/blob/main/Images/volcanic_co2.png">
 </p>
 
 It is evident from the plot that atmospheric CO2 levels are significantly higher than volcanic CO2 emissions. Atmospheric CO2 levels have been steadily increasing over the years, while volcanic CO2 emissions remain relatively stable. Hence Volcanic CO2 is not the major factor in rising atmospheric CO2 levels.
@@ -192,13 +192,13 @@ We choose a dataset with yearly total solar irradiance measured in W/m^2 from ye
 ## Correlation between Temperature and Total Solar Irridance
 
 <p align="center">
-  <img width="560" height="400" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/tsi_scatterplot.png">
+  <img width="560" height="400" src="https://github.com/yash-pimpale/Global_Temperature_Trends/blob/main/Images/tsi_scatterplot.png">
 </p>
 
 The scatter plot portrays temperature on the x-axis and Total Solar Irradiance (TSI) on the y-axis. A regression line is incorporated to display the direction of linear relationship. The plot displays a low positive correlation, as supported by a Pearson correlation coefficient of 0.345. This coefficient indicates a weak linear association, implying that with increasing TSI values, there is a minor increase in global temperature.
 
 <p align="center">
-  <img width="660" height="450" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Temp_Solar_Plot.jpg">
+  <img width="660" height="450" src="https://github.com/yash-pimpale/Global_Temperature_Trends/blob/main/Images/Temp_Solar_Plot.jpg">
 </p>
 
 Based on the analysis, since we observe a low positive correlation between the two, we can observe increased solar activity aligns with temperature rise. There are Instances of divergence i.e. the temperature fluctuations do not match the solar irradiance activity variations which suggest that solar activity isn't major factor in temperature changes. This can be observed in the year 1980, where we notice a separation between the temperature line and the solar irradiance line. This indicates that these two factors are not strongly linked or correlated with each other. The variations in the amount of solar energy (irradiance) reaching the Earth's surface have a limited and relatively small impact on causing changes in temperature over longer periods. Overall correlation doesn't fully explain recent temperature rise.
