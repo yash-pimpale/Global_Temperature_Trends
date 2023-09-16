@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ACM40960/project-abolipathak/blob/main/Images/Global_warming_logo.jpeg">
+  <img width="460" height="300" src="https://github.com/yash-pimpale/Global_Temperature_Trends/blob/main/Images/Global_warming_logo.jpeg">
 </p>
 
 # Global Temperature Trends
